@@ -8,7 +8,7 @@ export default function Products() {
         <NavLink
           to="/products/computer"
           className={({ isActive }) =>
-            isActive ? "rrc-products-nav-link rrc-active-link" : " rrc-products-nav-link "
+            isActive ? "rrc-nav-link rrc-active-link rrc-products-nav-link-color" : " rrc-nav-link rrc-products-nav-link-color"
           }
         >
           Computadores
@@ -16,7 +16,7 @@ export default function Products() {
         <NavLink
           to="/products/eletronics"
           className={({ isActive }) =>
-            isActive ? "rrc-products-nav-link rrc-active-link" : " rrc-products-nav-link "
+            isActive ? "rrc-nav-link rrc-active-link rrc-products-nav-link-color" : " rrc-nav-link rrc-products-nav-link-color"
           }
         >
           Eletronicos
@@ -24,7 +24,7 @@ export default function Products() {
         <NavLink
           to="/products/books"
           className={({ isActive }) =>
-            isActive ? "rrc-products-nav-link rrc-active-link" : " rrc-products-nav-link "
+            isActive ? "rrc-nav-link rrc-active-link rrc-products-nav-link-color" : " rrc-nav-link rrc-products-nav-link-color"
           }
         >
           Livros

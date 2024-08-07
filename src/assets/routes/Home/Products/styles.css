@@ -9,12 +9,9 @@
 }
 
 
-.rrc-products-nav-link{
-    font-size: 16px;
-    font-weight: 400;
+.rrc-products-nav-link-color{    
     color: var(---rrc-font-color-secondary);
-    text-decoration: inherit;
-    margin-left: 15px;
+
 }
 
 .rrc-active-link{

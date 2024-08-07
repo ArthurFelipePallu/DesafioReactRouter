@@ -9,9 +9,9 @@ export default function Header(){
     <header className="rrs-header">
         <div className="rrc-inside-header">
             <nav className="rrc-header-nav">
-                <NavLink to="/home" className={({isActive}) =>isActive ? "rrc-nav-link rrc-active-link" : " rrc-nav-link "   }>Inicio</NavLink>
-                <NavLink to="/products" className={({isActive}) =>isActive ? "rrc-nav-link rrc-active-link" : " rrc-nav-link "   }>Produtos</NavLink>
-                <NavLink to="/about" className={({isActive}) =>isActive ? "rrc-nav-link rrc-active-link" : " rrc-nav-link "   }>Sobre nós</NavLink>
+                <NavLink to="/home" className={({isActive}) =>isActive ? "rrc-nav-link rrc-active-link rrc-header-link-color" : " rrc-nav-link rrc-header-link-color "   }>Inicio</NavLink>
+                <NavLink to="/products" className={({isActive}) =>isActive ? "rrc-nav-link rrc-active-link rrc-header-link-color" : " rrc-nav-link rrc-header-link-color"   }>Produtos</NavLink>
+                <NavLink to="/about" className={({isActive}) =>isActive ? "rrc-nav-link rrc-active-link rrc-header-link-color" : " rrc-nav-link rrc-header-link-color"   }>Sobre nós</NavLink>
             </nav>
 
             <Link to="/"><img src={house_img} alt="" /></Link>

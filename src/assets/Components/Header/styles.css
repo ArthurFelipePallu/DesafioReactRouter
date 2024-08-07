@@ -15,15 +15,7 @@
 
 }
 
-
-.rrc-nav-link{
-    font-size: 16px;
-    font-weight: 400;
+.rrc-header-link-color{
     color: var(---rrc-font-color-primary);
-    text-decoration: inherit;
-    margin-left: 15px;
-}
 
-.rrc-active-link{
-    font-weight: 700;
 }
